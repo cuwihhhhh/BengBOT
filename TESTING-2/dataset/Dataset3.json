@@ -1,0 +1,1341 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "hei",
+        "Hi",
+        "hi",
+        "hi, apa yang bisa saya bantu",
+        "Hi apa kabar",
+        "start",
+        "apa kabar",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam"
+      ],
+      "responses": [
+        "Hi, Apa ada yang bisa saya bantu",
+        "Hai, adakah yang perlu saya bantu"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "see u",
+        "bye",
+        "selamat tinggal",
+        "see u next time",
+        "bye bye",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "semoga hari harimu menyenangkan",
+        "sehat sehat terus ya",
+        "Semoga happy terus"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks a lot",
+        "Thank you",
+        "makasih banyak",
+        "Makasih banget",
+        "Terima kasih"
+      ],
+      "responses": ["tentu saja:)", "You are welcome", "sama sama", "of course"]
+    },
+    {
+      "tag": "jadwal_bengkel",
+      "patterns": [
+        "Apakah bengkel buka setiap hari?",
+        "Kapan bengkel buka?",
+        "Jam berapa bengkel buka?",
+        "Apakah bengkel buka pada hari Minggu?",
+        "Bengkel tutup hari apa?",
+        "bengkel jam 7 pagi buka ga?",
+        "tutup jam berapa bengkel?"
+      ],
+      "responses": [
+        "Bengkel kami buka dari Senin hingga Sabtu, pukul 08:00 hingga 17:00. Pada hari Minggu, bengkel kami tutup."
+      ]
+    },
+    {
+      "tag": "sparepart",
+      "patterns": [
+        "Apa saja jenis spare part asli yang tersedia di bengkel Yamaha?",
+        "Apakah bengkel menyediakan spare part asli?",
+        "Jenis-jenis spare part apa saja yang tersedia di bengkel?",
+        "Apa saja spare part yang bisa saya beli di bengkel Yamaha?",
+        "mau beli sparepart asli",
+        "ada sparepart ga di bengkel?"
+      ],
+      "responses": [
+        "Kami menyediakan berbagai spare part asli Yamaha seperti filter udara dan oli, busi, karburator, rantai, kabel gas, rem (cakram dan tromol), oli mesin, kopling, gasket, dan aki."
+      ]
+    },
+    {
+      "tag": "layanan_service",
+      "patterns": [
+        "bengkel Yamaha memberikan jaminan untuk layanan servis?",
+        "ada garansi untuk servis di bengkel Yamaha?",
+        "ada jaminan layanan di bengkel Yamaha?",
+        "servis di bengkel Yamaha bergaransi?",
+        "mau servis di yamaha ada garansinya ga?",
+        "bengkel yamaha bergaransi tidak jika servis disana?"
+      ],
+      "responses": [
+        "Ya, kami memberikan jaminan atau garansi untuk layanan servis yang kami berikan. Garansi ini meliputi kualitas kerja dan suku cadang yang kami gunakan selama periode tertentu, biasanya tergantung pada jenis layanan yang Anda pilih. Ada lagi yang bisa kami bantu?"
+      ]
+    },
+    {
+      "tag": "informasi_layanan",
+      "patterns": [
+        "Kaca spion motor saya rusak, apa yang harus saya lakukan?",
+        "Motor saya mengalami masalah dengan rem, apa yang bisa dilakukan?",
+        "Bagaimana cara memperbaiki masalah pada motor saya?",
+        "Apa yang harus saya lakukan jika motor saya mogok?",
+        "motor saya remnya rusak",
+        "spion kaca rusak ingin servis"
+      ],
+      "responses": [
+        "Anda dapat melakukan servis ringan di bengkel kami. Untuk kaca spion rusak atau masalah rem, biasanya membutuhkan waktu sekitar 45 menit untuk perbaikan dan penggantian suku cadang. Semoga membantu!"
+      ]
+    },
+    {
+      "tag": "jam_operasional",
+      "patterns": [
+        "Kapan bengkel Yamaha buka?",
+        "Jam berapa bengkel buka dan tutup?",
+        "Apa jam operasional bengkel?",
+        "Bengkel buka jam berapa?",
+        "bengkel yamaha buka dari jam berapa?",
+        "ingin ke bengkel buka jam berapa?"
+      ],
+      "responses": [
+        "Bengkel kami buka setiap hari dari pukul 08:00 hingga 17:00, kecuali hari Minggu kami tutup."
+      ]
+    },
+    {
+      "tag": "ban_motor",
+      "patterns": [
+        "Kapan ban motor harus diganti?",
+        "Berapa lama usia pakai ban motor?",
+        "Kapan waktu yang tepat untuk mengganti ban motor?",
+        "Bagaimana mengetahui saatnya mengganti ban motor?",
+        "cara tau ban udh ga enak gimana?",
+        "ban saya rusak kenapa?"
+      ],
+      "responses": [
+        "Usia pakai ban motor rata-rata adalah 3-4 tahun dengan pemakaian standar, yaitu digunakan setiap hari untuk berangkat dan pulang kerja. Namun, jika digunakan untuk operasional seharian penuh seperti kurir, ketahanan usia ban motor hanya 2-3 tahun."
+      ]
+    },
+    {
+      "tag": "oli_motor",
+      "patterns": [
+        "Kapan waktu yang tepat untuk mengganti oli motor matic?",
+        "Berapa sering sebaiknya mengganti oli motor matic?",
+        "Kapan sebaiknya mengganti oli motor?",
+        "Bagaimana mengetahui waktu yang tepat untuk mengganti oli motor matic?",
+        "oli motor matic cocoknya di ganti kapan?",
+        "kenapa harus ganti oli?"
+      ],
+      "responses": [
+        "Waktu ideal untuk mengganti oli motor matic Yamaha adalah sebelum jarak tempuh mencapai 3.000 km."
+      ]
+    },
+    {
+      "tag": "bensin",
+      "patterns": [
+        "Motor Yamaha NMAX sebaiknya diisi bensin apa?",
+        "Bensin apa yang cocok untuk Yamaha NMAX?",
+        "Bahan bakar apa yang direkomendasikan untuk Yamaha NMAX?",
+        "Jenis bensin apa yang sebaiknya digunakan untuk Yamaha NMAX?",
+        "bensin yamaha NMAX apa?",
+        "isi pertalite di yamaha NMAX bisa?"
+      ],
+      "responses": [
+        "Yamaha NMAX memiliki rasio kompresi 10,5:1. Bahan bakar yang cocok untuk Yamaha NMAX adalah bensin Pertamax."
+      ]
+    },
+    {
+      "tag": "ukuran_piston",
+      "patterns": [
+        "Berapa ukuran piston NMAX 155 Old?",
+        "Piston NMAX 155 Old ukurannya berapa?",
+        "Ukuran piston untuk Yamaha NMAX 155 Old berapa?",
+        "Piston Yamaha NMAX 155 Old ukuran berapa?",
+        "piston yang cocok di yamaha NMAX 155 old?",
+        "piston yamaha NMAX 155"
+      ],
+      "responses": [
+        "Ukuran piston NMAX 155 Old adalah 58 mm dengan langkah 58,7 mm sehingga menghasilkan kapasitas 155 cc."
+      ]
+    },
+    {
+      "tag": "Bengbot",
+      "patterns": [
+        "Apa sih Bengbot itu?",
+        "Siapa sih Bengbot?",
+        "gunanya Bengbot?",
+        "bengbot buat apa?",
+        "bengbot manusia?",
+        "bengbot itu apa si?"
+      ],
+      "responses": [
+        "Bengbot adalah chatbot yang siap membantu Anda dalam menjawab pertanyaan dan memberikan informasi tentang layanan kami di bengkel motor."
+      ]
+    },
+    {
+      "tag": "layanan Service",
+      "patterns": [
+        "apakah bisa servis cvt", 
+        "service cvt",
+        "cvt udah ga enak",
+        "biaya servis cvt",
+        "mau servis cvt",
+        "servis cvt di yamaha berapa?"
+      ],
+      "responses": [
+        "bisa, tapi di kenakan biaya tergantung jenis dan cc motornya"
+      ]
+    },
+    {
+      "tag": "bore up",
+      "patterns": [
+        "kompresi motor bisa di bore up?",
+        "menentukan ukuran piston yang tepat untuk bore up?",
+        "mau bore up sendiri bisa?",
+        "bore up di kompresi motor bisa?",
+        "ukuran piston buat di bore up",
+        "bisa bore up sendiri tidak?"
+      ],
+      "responses": [
+        "Disarankan melakukan bore up dengan ukuran yang sesuai dengan standar. apabila melampaui ukuran maka akan menyebabkan menghambat pelepasan panas di mesin"
+      ]
+    },
+    {
+      "tag": "ganti shock",
+      "patterns": [
+        "berikan saya tips supaya ga sering ganti shock",
+        "saya ingin shock saya awet",
+        "shock saya rusak kenapa?",
+        "shock saya sering rusak",
+        "kenapa shock saya sering rusak?",
+        "saya mau shock awet tipsnya apa?"
+      ],
+      "responses": [
+        "tidak membawa beban yang melebihi beban kapasitas yang disarankan dari motor itu sendiri, karena beban itu berpengaruh dengan keawetan shock breaker itu sendiri"
+      ]
+    },
+    {
+      "tag": "Yamalube oli",
+      "patterns": [
+        "oli yamalube super sport untuk jenis motor apa?",
+        "jenis motor apa yang di isi oli yamalube super sport",
+        "motor apa untuk oli yamalube super sport?",
+        "motor jenis apa untuk oli yamalube?",
+        "apa jenis motor untuk oli yamalube?",
+        "oli yamalube bisa buat motor matic?"
+      ],
+      "responses": [
+        "diformulasikan khusus untuk perawatan mesin motor 4-Tak modern tipe sport yang mana mempunyai kerapatan mesin yang kecil, material komponen yang lebih baik dan tenaga mesin yang besar"
+      ]
+    },
+    {
+      "tag": "Harga Oli",
+      "patterns": [
+        "berapa harga oli yamaha?", 
+        "harga oli yamaha", 
+        "harga oli",
+        "berapa biaya oli yamaha?",
+        "yamaha oli berapa?",
+        "oli harga"
+      ],
+      "responses": ["38.000/liter"]
+    },
+    {
+      "tag": "Oli Motor",
+      "patterns": [
+        "oli apa yang cocok untuk yamaha NMAX?",
+        "apa oli yang cocok untuk motor saya",
+        "yamaha NMAX cocok oli apa?",
+        "oli untuk yamaha NMAX apa?",
+        "yamaga NMAX oli yang cocok apa?"
+      ],
+      "responses": [
+        "cocok dengan oli Motul GP Matic 10W 40, Yamahalube Super Matic, Petroasia Revol Matic SAE 10W40 API SL, PTT Lubricants Challenger Scooter SAE 10W30, Shell Matic Ulyra dan masih banyak pilihan lagi"
+      ]
+    },
+    {
+      "tag": "Kampas kopling",
+      "patterns": [
+        "Berapa lama mengganti kampas kopling",
+        "saya ingin mengganti kampas kopling",
+        "kampas rem error",
+        "kampas rem udh bunyi kenapa?",
+        "kampas rem sering habis",
+        "mau kampas rem yang awet"
+      ],
+      "responses": [
+        "Umur pakai kampas kopling dapat bervariasi tergantung pada gaya berkendara, kondisi jalan, dan pemeliharaan yang dilakukan, tetapi umumnya, kampas kopling biasanya perlu diganti setiap beberapa puluhan ribu kilometer"
+      ]
+    },
+    {
+      "tag": "Filter Oli",
+      "patterns": ["Kenapa filter oli harus di ganti?, filter oli saya boros"],
+      "responses": [
+        "filter oli sebaiknya diganti setiap kali melakukan pergantian oli mesin, biasanya berkisar antara 5.000 hingga 10.000 kilometer tergantung pada kondisi penggunaan dan rekomendasi pabrikan"
+      ]
+    },
+    {
+      "tag": "Cakram motor",
+      "patterns": [
+        "Apa tandanya cakram motor perlu di ganti?",
+        "apa cakram motor diganti?", 
+        "kenapa cakram saya sudah ga enak?",
+        "tanda cakram motor harus di ganti",
+        "cakram motor udah ga enak",
+        "cakram motor rusak"
+      ],
+      "responses": [
+        "adanya goresan atau retak pada permukaan cakram atau gejala pengereman tidak efektif bahkan setelah dilakukan perawatan"
+      ]
+    },
+    {
+      "tag": "Stang motor",
+      "patterns": [
+        "Sebutkan variasi stang motor yang tersedia", 
+        "mau stang yang awet",
+        "ukuran stang motor",
+        "stang motor varisanya",
+        "bentuk variasi stang motor",
+        "variasi apa aja untuk stang motor?"
+      ],
+      "responses": [
+        "Ya, terdapat berbagai macam variasi stang motor yang tersedia di pasaran, termasuk stang dengan bentuk, tinggi, lebar, atau material yang berbeda, sesuai dengan kebutuhan dan preferensi pengendara"
+      ]
+    },
+    {
+      "tag": "tips_perawatan",
+      "patterns": [
+        "Bagaimana cara merawat motor agar awet?",
+        "Apa tips untuk merawat motor Yamaha?",
+        "Bagaimana cara menjaga motor agar tetap dalam kondisi baik?",
+        "Apa yang harus dilakukan agar motor tetap awet?",
+        "motor saya sering di servis kenapa?",
+        "tips merawat motor yamaha"
+      ],
+      "responses": [
+        "Berikut beberapa tips untuk merawat motor agar tetap awet: 1. Ganti oli secara teratur setiap 3.000 km, 2. Periksa tekanan ban setiap minggu, 3. Bersihkan filter udara secara berkala, 4. Gunakan bahan bakar berkualitas, 5. Lakukan servis rutin setiap 6 bulan sekali."
+      ]
+    },
+    {
+      "tag": "harga_service",
+      "patterns": [
+        "Berapa biaya servis motor di bengkel Yamaha?",
+        "Berapa harga servis motor di bengkel?",
+        "Berapa tarif untuk servis di bengkel Yamaha?",
+        "Berapa biaya untuk servis rutin di bengkel Yamaha?",
+        "kena biaya berapa sevis di bengkel?",
+        "mau servis berapa biayanya?"
+      ],
+      "responses": [
+        "Biaya servis motor di bengkel kami bervariasi tergantung jenis layanan. Untuk servis ringan biasanya sekitar Rp 100.000, sedangkan untuk servis besar bisa mencapai Rp 300.000. Silakan datang ke bengkel kami untuk informasi lebih lanjut."
+      ]
+    },
+    {
+      "tag": "pemesanan_sparepart",
+      "patterns": [
+        "Bagaimana cara memesan spare part di bengkel Yamaha?",
+        "Saya ingin memesan spare part bagaimana caranya?",
+        "Apa prosedur untuk memesan spare part di sini?",
+        "Bisa pesan spare part secara online?",
+        "mau pesen spare part secara online",
+        "bisa ga beli spare part di web?"
+      ],
+      "responses": [
+        "Anda dapat memesan spare part langsung di bengkel kami atau melalui website resmi Yamaha. Pastikan Anda menyertakan informasi lengkap mengenai spare part yang dibutuhkan."
+      ]
+    },
+    {
+      "tag": "jenis_oli",
+      "patterns": [
+        "Apa saja jenis oli yang tersedia di bengkel Yamaha?",
+        "Oli apa saja yang tersedia di sini?",
+        "Jenis-jenis oli apa yang bisa saya pilih?",
+        "Ada oli merek apa saja di bengkel ini?",
+        "oli yang tersedia di bengkel",
+        "merek apa aja untuk oli di bengkel?"
+      ],
+      "responses": [
+        "Kami menyediakan berbagai jenis oli seperti Yamalube, Castrol, Motul, dan Shell. Anda bisa memilih oli yang sesuai dengan kebutuhan dan spesifikasi motor Anda."
+      ]
+    },
+    {
+      "tag": "perawatan_rutin",
+      "patterns": [
+        "Apa saja yang termasuk dalam perawatan rutin motor?",
+        "Perawatan rutin motor meliputi apa saja?",
+        "Bagaimana perawatan rutin motor di bengkel ini?",
+        "Apa yang dilakukan saat perawatan rutin motor?",
+        "bisa ga perawatan motor secara rutin?",
+        "apa aja untuk merawat motor?"
+      ],
+      "responses": [
+        "Perawatan rutin motor meliputi pengecekan dan penggantian oli, pemeriksaan rem, pengecekan tekanan ban, penyetelan rantai, dan pengecekan sistem kelistrikan. Semua ini dilakukan untuk memastikan motor Anda dalam kondisi optimal."
+      ]
+    },
+    {
+      "tag": "perawatan_aki",
+      "patterns": [
+        "cara merawat aki motor?",
+        "Apa yang harus dilakukan agar aki motor awet?",
+        "Tips merawat aki motor agar tahan lama?",
+        "cara menjaga aki motor tetap baik?",
+        "aki motor agar tahan lama",
+        "bisa ga merawat aki motor tetap awet?"
+      ],
+      "responses": [
+        "Untuk merawat aki motor, pastikan selalu mengecek dan mengisi cairan aki secara berkala, periksa terminal aki dari korosi, dan gunakan motor secara rutin untuk menjaga aki tetap terisi."
+      ]
+    },
+    {
+      "tag": "diskon_AkhirTahun",
+      "patterns": [
+        "Apakah ada diskon di bengkel Yamaha?",
+        "Diskon ada tidak?",
+        "Apakah mendapatkan diskon di sini?",
+        "Ada potongan harga?",
+        "mau diskon",
+        "diskon ada ga ya?"
+      ],
+      "responses": [
+        "Ya, kami memberikan diskon khusus  sebesar 10% untuk setiap layanan servis dan pembelian spare part setiap ganti tahun"
+      ]
+    },
+    {
+      "tag": "layanan_darurat",
+      "patterns": [
+        "Apakah bengkel menyediakan layanan darurat?",
+        "Bengkel ini ada layanan darurat tidak?",
+        "Apa ada layanan darurat 24 jam?",
+        "Bisa minta bantuan darurat dari bengkel ini?",
+        "layanan darurat di nomor berapa?",
+        "berikan nomor untuk layanan darurat"
+      ],
+      "responses": [
+        "Ya, kami menyediakan layanan darurat 24 jam untuk membantu Anda dalam situasi mendesak. Anda bisa menghubungi nomor darurat kami di 0812-3456-7890."
+      ]
+    },
+    {
+      "tag": "penggantian_suku_cadang",
+      "patterns": [
+        "Berapa lama waktu yang dibutuhkan untuk mengganti suku cadang?",
+        "Waktu penggantian suku cadang berapa lama?",
+        "Proses penggantian suku cadang memakan waktu berapa lama?",
+        "Berapa lama durasi penggantian spare part?",
+        "lama ga untuk ganti spare part?",
+        "waktu untuk ganti spare part lama?/"
+      ],
+      "responses": [
+        "Waktu penggantian suku cadang tergantung jenis suku cadang yang diganti. Untuk penggantian suku cadang kecil biasanya memakan waktu sekitar 30 menit hingga 1 jam, sedangkan untuk suku cadang besar bisa memakan waktu hingga 2 jam."
+      ]
+    },
+    {
+      "tag": "tune_up",
+      "patterns": [
+        "Apa saja yang dilakukan saat tune up motor?",
+        "Tune up motor meliputi apa saja?",
+        "Bagaimana proses tune up motor?",
+        "Apa yang termasuk dalam layanan tune up?",
+        "layanan untuk tone up motor ada?",
+        "tone up motor berisi apa aja?"
+      ],
+      "responses": [
+        "Tune up motor meliputi pembersihan karburator atau injektor, pengecekan dan penyetelan klep, pengecekan sistem pengapian, penggantian busi, pembersihan filter udara, dan pengecekan keseluruhan sistem motor."
+      ]
+    },
+    {
+      "tag": "keluhan",
+      "patterns": [
+        "Bagaimana cara mengajukan keluhan tentang layanan di bengkel?",
+        "Saya ingin mengajukan keluhan, bagaimana caranya?",
+        "Kemana saya bisa menyampaikan keluhan?",
+        "Bisa kasih tahu cara komplain layanan di sini?",
+        "keluhan untuk komplain dimana?",
+        "bisa ga sampaikan keluhan?"
+      ],
+      "responses": [
+        "Anda dapat mengajukan keluhan langsung ke customer service kami di bengkel atau melalui email ke support@yamaha.com. Kami akan segera menindaklanjuti keluhan Anda untuk meningkatkan layanan kami."
+      ]
+    },
+    {
+      "tag": "service_booking",
+      "patterns": [
+        "Bagaimana cara booking layanan servis?",
+        "ingin booking servis",
+        "Bisa booking servis online?",
+        "Bagaimana cara memesan layanan servis?",
+        "cara booking servis online",
+        "mau booking servis online"
+      ],
+      "responses": [
+        "Anda bisa melakukan booking layanan servis melalui website resmi Yamaha atau menghubungi kami di nomor 0812-3456-7890. Pastikan untuk memberikan informasi lengkap mengenai jenis layanan yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "pengiriman_sparepart",
+      "patterns": [
+        "Apakah bengkel menyediakan layanan pengiriman spare part?",
+        "Bisa kirim spare part ke rumah?",
+        "Apakah ada layanan pengiriman untuk spare part?",
+        "Bengkel ini menyediakan pengiriman spare part?",
+        "kena biaya berapa pengiriman spare part",
+        "sapre part pengiraman berapa?"
+      ],
+      "responses": [
+        "Ya, kami menyediakan layanan pengiriman spare part ke rumah Anda. Silakan hubungi kami untuk informasi lebih lanjut mengenai biaya dan waktu pengiriman."
+      ]
+    },
+    {
+      "tag": "ketersediaan_suku_cadang",
+      "patterns": [
+        "Apakah suku cadang untuk motor Yamaha R15 tersedia?",
+        "Suku cadang Yamaha R15 ada tidak?",
+        "Bengkel ini menyediakan suku cadang R15?",
+        "Ada spare part untuk Yamaha R15?",
+        "spare part R15 ada?",
+        "ada ga spare part untk R15?"
+      ],
+      "responses": [
+        "Ya, kami menyediakan berbagai suku cadang untuk motor Yamaha R15. Anda bisa mengunjungi bengkel kami atau memesan secara online."
+      ]
+    },
+    {
+      "tag": "layanan_konsultasi",
+      "patterns": [
+        "Apakah ada layanan konsultasi sebelum servis?",
+        "Bisa konsultasi dulu sebelum servis?",
+        "Ada konsultasi gratis di sini?",
+        "Bagaimana cara konsultasi dengan mekanik?",
+        "sebelum servis bisa konsultasi?",
+        "konsultasi gratis ga?"
+      ],
+      "responses": [
+        "Kami menyediakan layanan konsultasi gratis sebelum servis. Anda dapat berbicara langsung dengan mekanik kami untuk mendapatkan saran dan rekomendasi terbaik untuk motor Anda."
+      ]
+    },
+    {
+      "tag": "perawatan_rantai",
+      "patterns": [
+        "Bagaimana cara merawat rantai motor?",
+        "Apa yang harus dilakukan agar rantai motor awet?",
+        "Tips merawat rantai motor?",
+        "Bagaimana cara menjaga rantai motor tetap baik?",
+        "rantai motor sering copot kenapa?",
+        "kenapa rantai motor copot"
+      ],
+      "responses": [
+        "Untuk merawat rantai motor, pastikan selalu membersihkan rantai secara berkala, lumasi rantai dengan pelumas khusus, dan cek ketegangan rantai secara rutin. Jangan biarkan rantai terlalu kendor atau terlalu kencang."
+      ]
+    },
+    {
+      "tag": "penggantian_ban",
+      "patterns": [
+        "Kapan waktu yang tepat untuk mengganti ban motor?",
+        "Bagaimana cara mengetahui ban motor harus diganti?",
+        "Apa tanda-tanda ban motor harus diganti?",
+        "Berapa lama umur ban motor biasanya?",
+        "ban motor harus di ganti?",
+        "kenapa ban motor harus di ganti?"
+      ],
+      "responses": [
+        "Ban motor sebaiknya diganti jika sudah terlihat aus atau jika jarak tempuh sudah mencapai 10.000 km. Tanda-tanda ban harus diganti antara lain adanya retakan pada dinding ban, kedalaman alur ban kurang dari 1,6 mm, atau terasa getar saat dikendarai."
+      ]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Apa saja metode pembayaran yang diterima?",
+        "Bengkel ini menerima pembayaran pakai apa saja?",
+        "Pembayarannya bisa pakai kartu kredit?",
+        "Metode pembayaran di sini apa saja?",
+        "pembayaran untuk bengkel apa?",
+        "bisa ga Qris untuk pembayaran?"
+      ],
+      "responses": [
+        "Kami menerima berbagai metode pembayaran, termasuk tunai, kartu kredit, kartu debit, dan pembayaran melalui dompet digital seperti OVO dan GoPay."
+      ]
+    },
+    {
+      "tag": "pengisian_angin_ban",
+      "patterns": [
+        "Berapa tekanan angin yang ideal untuk ban motor?",
+        "Tekanan angin ban motor harus berapa?",
+        "Bagaimana cara mengisi angin ban yang benar?",
+        "Apa tekanan angin yang tepat untuk ban motor?",
+        "tekanan angin untuk ban motor berapa?",
+        "ngisi ban motor yang benar"
+      ],
+      "responses": [
+        "Tekanan angin yang ideal untuk ban motor biasanya sekitar 28-32 psi untuk ban depan dan 32-36 psi untuk ban belakang. Pastikan mengisi angin ban sesuai dengan rekomendasi pabrikan yang tertera di manual motor Anda."
+      ]
+    },
+    {
+      "tag": "aksesoris_motor",
+      "patterns": [
+        "Apa saja aksesoris motor yang tersedia di bengkel ini?",
+        "Bengkel ini jual aksesoris motor apa saja?",
+        "Ada aksesoris motor di sini?",
+        "Apa aksesoris motor yang bisa saya beli di bengkel ini?",
+        "aksesoris motor apa aja?",
+        "bisa ga beli aksesoris di bengkel?"
+      ],
+      "responses": [
+        "Kami menyediakan berbagai aksesoris motor seperti box belakang, windshield, hand grip, cover knalpot, dan banyak lagi. Anda bisa melihat katalog aksesoris kami di bengkel atau di website resmi kami."
+      ]
+    },
+    {
+      "tag": "perbaikan_kerusakan",
+      "patterns": [
+        "Motor saya mogok, apa yang harus dilakukan?",
+        "Bagaimana cara mengatasi motor mogok?",
+        "Apa yang harus dilakukan jika motor tidak bisa dinyalakan?",
+        "Motor mogok, bisa minta bantuan?",
+        "motor mogok ga jelas",
+        "motor saya sering mogok"
+      ],
+      "responses": [
+        "Jika motor Anda mogok, cobalah untuk memeriksa kondisi bahan bakar, busi, dan kelistrikan. Jika masih tidak bisa dinyalakan, Anda bisa menghubungi layanan darurat kami untuk bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "penjadwalan_servis",
+      "patterns": [
+        "Bagaimana cara membuat janji servis di bengkel ini?",
+        "Saya ingin menjadwalkan servis, bagaimana caranya?",
+        "Bisa buat janji servis?",
+        "Cara penjadwalan servis bagaimana?",
+        "bisa buat janji dahulu ke bangkel?",
+        "apa aja untuk buat janji di bengkel?"
+      ],
+      "responses": [
+        "Anda dapat menjadwalkan servis dengan menghubungi bengkel kami melalui telepon atau melalui website resmi Yamaha. Pilih tanggal dan waktu yang Anda inginkan dan kami akan mengkonfirmasi jadwal servis Anda."
+      ]
+    },
+    {
+      "tag": "layanan_towing",
+      "patterns": [
+        "Apakah ada layanan towing untuk motor?",
+        "Bengkel ini menyediakan towing motor?",
+        "Bisa minta towing motor?",
+        "Ada layanan towing di sini?",
+        "layanan towing motor",
+        "ada ga layanan towing motor?"
+      ],
+      "responses": [
+        "Ya, kami menyediakan layanan towing untuk motor. Anda dapat menghubungi kami kapan saja jika membutuhkan layanan towing. Nomor layanan towing kami adalah 0812-3456-7890."
+      ]
+    },
+    {
+      "tag": "perawatan_kaki_kaki",
+      "patterns": [
+        "Bagaimana cara merawat kaki-kaki motor?",
+        "Apa saja yang perlu diperhatikan dalam perawatan kaki-kaki motor?",
+        "Tips merawat kaki-kaki motor?",
+        "Bagaimana menjaga kaki-kaki motor tetap baik?",
+        "kaki-kaki motor untuk awet",
+        "cara merawat kaki-kaki motor"
+      ],
+      "responses": [
+        "Untuk merawat kaki-kaki motor, pastikan selalu membersihkan bagian tersebut secara berkala, cek kondisi suspensi dan bearing, serta pastikan pelumasannya baik. Jika ada keluhan atau bunyi yang tidak biasa, segera periksa ke bengkel."
+      ]
+    },
+    {
+      "tag": "jasa_home_service",
+      "patterns": [
+        "Apakah bengkel ini menyediakan layanan home service?",
+        "Bisa tidak teknisi datang ke rumah?",
+        "Ada layanan service di rumah?",
+        "Apakah saya bisa minta home service?",
+        "mau home servis bisa ga?",
+        "layanan home servis boleh?"
+      ],
+      "responses": [
+        "Ya, kami menyediakan layanan home service. Anda bisa memesan layanan ini melalui website kami atau dengan menghubungi nomor layanan pelanggan."
+      ]
+    },
+    {
+      "tag": "perbaikan_listrik",
+      "patterns": [
+        "Motor saya tidak bisa menyala masalahnya di bagian listrik?",
+        "cara mengatasi masalah kelistrikan pada motor?",
+        "mengatasi kelistrikan motor",
+        "Bagaimana cara memperbaiki masalah kelistrikan pada motor?",
+        "memberbaiki kelistrikan motor",
+        "apa bagian kelistrikan yang rusak?"
+      ],
+      "responses": [
+        "Masalah kelistrikan pada motor bisa disebabkan oleh aki yang lemah atau kabel yang putus. Sebaiknya periksa kondisi aki dan kabel-kabelnya, jika perlu bawa motor Anda ke bengkel untuk pengecekan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "service_ringan",
+      "patterns": [
+        "Apa saja yang termasuk dalam layanan service ringan?",
+        "Layanan apa yang diberikan dalam service ringan?",
+        "Service ringan itu meliputi apa saja?",
+        "Apa yang dikerjakan dalam service ringan?",
+        "mau servis ringan",
+        "apa aja servis ringan?"
+      ],
+      "responses": [
+        "Service ringan biasanya meliputi pengecekan dan pembersihan filter udara, penggantian oli, pengecekan rem, dan pemeriksaan kondisi rantai serta kelistrikan motor. Layanan ini bertujuan untuk memastikan motor Anda dalam kondisi optimal."
+      ]
+    },
+    {
+      "tag": "service_berkala",
+      "patterns": [
+        "Kapan sebaiknya melakukan service berkala?",
+        "Apa saja yang dilakukan dalam service berkala?",
+        "Berapa lama interval service berkala?",
+        "Mengapa penting melakukan service berkala?",
+        "perlu servis berkala?",
+        "lama ga interval servis?"
+      ],
+      "responses": [
+        "Service berkala sebaiknya dilakukan setiap 3.000 km atau setiap 3 bulan sekali. Layanan ini meliputi pengecekan menyeluruh pada mesin, sistem rem, sistem kelistrikan, dan bagian lainnya untuk memastikan motor Anda selalu dalam kondisi terbaik."
+      ]
+    },
+    {
+      "tag": "perawatan_rem",
+      "patterns": [
+        "Bagaimana cara merawat rem motor?",
+        "Apa yang harus dilakukan agar rem motor tetap baik?",
+        "Tips perawatan rem motor?",
+        "Bagaimana cara memastikan rem motor bekerja optimal?",
+        "rem motor tipis",
+        "rem motor rawatnya gimana?"
+      ],
+      "responses": [
+        "Pastikan selalu memeriksa kondisi kampas rem, minyak rem, dan cakram/tromol. Gantilah kampas rem jika sudah tipis, tambahkan minyak rem jika berkurang, dan bersihkan cakram/tromol dari kotoran secara berkala."
+      ]
+    },
+    {
+      "tag": "pemilihan_ban",
+      "patterns": [
+        "Bagaimana cara memilih ban motor yang baik?",
+        "Apa yang harus diperhatikan saat membeli ban motor?",
+        "Tips memilih ban motor?",
+        "Bagaimana cara memastikan ban motor sesuai?",
+        "ban yang cocok?",
+        "ban anti licin"
+      ],
+      "responses": [
+        "Pilihlah ban motor yang sesuai dengan spesifikasi pabrikan, perhatikan pola alur ban untuk penggunaan sehari-hari atau medan tertentu, dan pastikan ukuran ban sesuai dengan velg motor Anda. Jangan lupa cek tanggal produksi untuk memastikan ban tidak terlalu lama disimpan."
+      ]
+    },
+    {
+      "tag": "servis_berat",
+      "patterns": [
+        "Apa saja yang termasuk dalam layanan servis berat?",
+        "Layanan apa yang diberikan dalam servis berat?",
+        "Servis berat itu meliputi apa saja?",
+        "Apa yang dikerjakan dalam servis berat?",
+        "mau servis berat",
+        "apa layanan servis berat?"
+      ],
+      "responses": [
+        "Servis berat biasanya meliputi pembongkaran mesin, pengecekan dan penggantian komponen mesin yang aus atau rusak, perbaikan sistem transmisi, dan pengecekan menyeluruh pada seluruh sistem motor. Layanan ini bertujuan untuk memperbaiki dan mengembalikan performa motor."
+      ]
+    },
+    {
+      "tag": "perawatan_filter_udara",
+      "patterns": [
+        "Bagaimana cara merawat filter udara motor?",
+        "Kapan harus membersihkan filter udara motor?",
+        "Tips perawatan filter udara motor?",
+        "cara memastikan filter udara motor tetap bersih?",
+        "perawatan filter udara motor",
+        "memastikan filter udara bersih dimana?"
+      ],
+      "responses": [
+        "Filter udara sebaiknya dibersihkan setiap 3.000 km atau lebih sering jika motor sering digunakan di area berdebu. Gantilah filter udara setiap 10.000 km atau sesuai rekomendasi pabrikan. Pastikan filter udara selalu dalam kondisi bersih untuk performa optimal."
+      ]
+    },
+    {
+      "tag": "pengecekan_kopling",
+      "patterns": [
+        "Bagaimana cara mengecek kondisi kopling motor?",
+        "Apa yang harus diperhatikan saat mengecek kopling motor?",
+        "Tips pengecekan kopling motor?",
+        "Bagaimana cara memastikan kopling motor bekerja baik?",
+        "ngecek kopling motor",
+        "apa aja untuk ngecek kopling motor? "
+      ],
+      "responses": [
+        "Periksa apakah kopling terasa berat atau selip, cek kondisi kampas kopling dan pastikan tidak aus. Jika kopling terasa tidak nyaman atau tidak bekerja dengan baik, sebaiknya segera bawa motor ke bengkel untuk pengecekan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "penyimpanan_motor",
+      "patterns": [
+        "Bagaimana cara menyimpan motor yang baik?",
+        "Apa yang harus dilakukan jika motor tidak dipakai lama?",
+        "Tips penyimpanan motor?",
+        "Bagaimana cara memastikan motor tetap baik saat disimpan lama?",
+        "penyimpanan motor yang baik",
+        "apa memastikan motor tetap baik saat disimpan lama?"
+      ],
+      "responses": [
+        "Jika motor tidak akan digunakan dalam waktu lama, pastikan untuk mencuci dan mengeringkan motor, lepas aki dan simpan di tempat kering, isi penuh tangki bahan bakar untuk menghindari karat, dan tutup motor dengan cover untuk melindungi dari debu dan kelembapan."
+      ]
+    },
+    {
+      "tag": "tune_up",
+      "patterns": [
+        "Apa itu tune up motor?",
+        "Apa saja yang dilakukan dalam tune up?",
+        "Kapan sebaiknya melakukan tune up motor?",
+        "Mengapa penting melakukan tune up?",
+        "tune up buat apa?",
+        "penting kah tune up motor?"
+      ],
+      "responses": [
+        "Tune up adalah perawatan menyeluruh yang meliputi pengecekan dan penyetelan mesin, sistem pengapian, sistem bahan bakar, dan komponen lainnya. Tune up sebaiknya dilakukan setiap 6 bulan sekali atau setiap 6.000 km untuk menjaga performa motor tetap optimal."
+      ]
+    },
+    {
+      "tag": "pengecekan_busi",
+      "patterns": [
+        "Bagaimana cara mengecek kondisi busi motor?",
+        "Apa tanda-tanda busi motor harus diganti?",
+        "Tips pengecekan busi motor?",
+        "Bagaimana cara memastikan busi motor bekerja baik?",
+        "ngecek busi motor",
+        "tanda busi motor harus di ganti?"
+      ],
+      "responses": [
+        "Periksa warna elektroda busi; jika berwarna coklat atau abu-abu, busi dalam kondisi baik. Jika berwarna hitam atau putih, busi perlu diganti atau motor perlu disetel ulang. Gantilah busi setiap 10.000 km atau sesuai rekomendasi pabrikan."
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_NMAX",
+      "patterns": [
+        "berapa ukuran piston dan langkah untuk Yamaha NMAX?",
+        "ukuran piston langkah untuk Yamaha NMAX?",
+        "ukuran memilih piston untuk Yamaha NMAX?",
+        "piston ukuran untuk yamaha NMAX",
+        "menentukan ukuran piston yamaha NMAX",
+        "pilihan ukuran piston yamaha NMAX"
+      ],
+      "responses": ["model: Yamaha NMAX, piston_size : 58 mm, stroke : 58.7 mm"]
+    },
+    {
+      "tag": "ukuran_piston_langkah_vixion",
+      "patterns": [
+        "apa ukuran piston dan langkah motor Yamaha Vixion?",
+        "ukuran piston yang cocok di motor Yamaha Vixion?",
+        "memilih ukuran piston motor Yamaha Vixion?",
+        "ukuran piston motor Yamaha Vixion?",
+        "Vixion",
+        "pilihan ukuran piston yamaha Vixion"
+      ],
+      "responses": [
+        "model: Yamaha Vixion, piston_size : 57 mm, stroke : 58.7 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_r15",
+      "patterns": [
+        "ukuran piston dan langkah Yamaha R15 berapa?",
+        "ukuran piston yang cocok di motor Yamaha R15?",
+        "memilih ukuran piston motor Yamaha R15?",
+        "piston untuk yamaha R15",
+        "menentukan ukuran piston yamaha R15",
+        "pilihan ukuran piston yamaha Vixion"
+      ],
+      "responses": ["model: Yamaha R15, piston_size : 57 mm, stroke : 58.7 mm"]
+    },
+    {
+      "tag": "ukuran_piston_langkah_aerox",
+      "patterns": [
+        "apa spesifikasi piston dan langkah Yamaha Aerox?",
+        "spesifikasi piston dan langkah yang cocok Yamaha Aerox?",
+        "memilih spesifikasi piston Yamaha Aerox?",
+        "spesifikasi piston Yamaha Aerox",
+        "apa aja Yamaha Aerox pesifikasi piston"
+      ],
+      "responses": [
+        "model: Yamaha Aerox, piston_size : 58 mm, stroke : 58.7 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_tambahan_r25",
+      "patterns": [
+        "Berapa ukuran piston dan langkah untuk Yamaha R25?",
+        "ukuran piston yang cocok di Yamaha R25?",
+        "memilih ukuran piston Yamha R25?",
+        "piston yang cocok di Yamaha R25 berapa?",
+        "piston ukuran di Yamaha R25"
+      ],
+      "responses": ["model: Yamaha R25 , piston_size: 60 mm , stroke : 44.1 mm"]
+    },
+    {
+      "tag": "ukuran_piston_langkah_tambahan_mt25",
+      "patterns": [
+        "Apa ukuran piston dan langkah motor Yamaha MT-25?",
+        "ukuran piston yang cocok di Yamaha MT-25?",
+        "memilih ukuran piston Yamaha MT-25?",
+        "ukuran piston Yamaha MT-25?",
+        "piston ukuran Yamaha MT-25?"
+      ],
+      "responses": [
+        "model: Yamaha MT-25 , piston_size: 60 mm , stroke : 44.1 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_tambahan_xmax",
+      "patterns": [
+        "ukuran piston dan langkah XMAX berapa?",
+        "langkah memilih ukuran untuk XMAX?",
+        "memilih ukuran piston XMAX?",
+        "memilih ukuran piston untuk XMAX?",
+        "ada ga ukuran piston XMAX?",
+        "ukuran piston untuk XMAX? "
+      ],
+      "responses": [
+        "model: Yamaha XMAX , piston_size: 70 mm , stroke : 64.9 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_lainnya_byson",
+      "patterns": [
+        "Berapa ukuran piston dan langkah untuk Yamaha Byson?",
+        "piston ukuran yang pas untuk Yamaha Byson?",
+        "tips memilih ukuran piston Yamaha Byson",
+        "ukuran piston yang pas untuk Yamaha Byson?",
+        "memilih ukuran piston Yamaha Byson",
+        "tips memilih ukuran piston Yamaha Byson"
+      ],
+      "responses": [
+        "model : Yamaha Byson ,piston_size : 57.3 mm , stroke : 57.9 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_lainnya_fino",
+      "patterns": [
+        "Apa ukuran piston dan langkah motor Yamaha Fino?",
+        "piston ukuran yang pas untuk Yamaha Fino?",
+        "tips memilih ukuran piston Yamaha Fino",
+        "ukuran yang pas untuk Yamaha Fino?",
+        "ukuran piston untuk Yamaha Fino?",
+        "memilih ukuran piston Yamaha Fino"
+      ],
+      "responses": [
+        "model : Yamaha Fino ,piston_size : 50 mm , stroke : 57.9 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_lainnya_lexi",
+      "patterns": [
+        "Ukuran piston dan langkah Yamaha Lexi berapa?",
+        "piston ukuran yang pas untuk Yamaha Lexi?",
+        "tips memilih ukuran piston Yamaha Lexi",
+        "ukuran yang pas untuk Yamaha Lexi?",
+        "Ukuran piston untuk Yamaha Lexi?",
+        "memilih ukuran piston Yamaha Lexi"
+      ],
+      "responses": [
+        "model : Yamaha Lexi ,piston_size : 52 mm , stroke : 58.7 mm"
+      ]
+    },
+    {
+      "tag": "ukuran_piston_langkah_lainnya_scorpio",
+      "patterns": [
+        "Apa pesifikasi psiston dan langkah Yamaha Scorpio?",
+        "spesofikasi piston ukuran yang pas untuk Yamaha Scorpio?",
+        "tips memilih spesifikasi ukuran piston Yamaha Scorpio",
+        "piston ukuran yang pas untuk Yamaha Scorpio?",
+        "spesifikasi ukuran piston Yamaha Scorpio",
+        "ukuran piston Yamaha Scorpio"
+      ],
+      "responses": [
+        "model : Yamaha Scorpio ,piston_size : 70 mm , stroke : 58 mm"
+      ]
+    },
+    {
+      "tag": "informasi_knalpot_nmax",
+      "patterns": [
+        "Knalpot apa yang cocok untuk Yamaha NMAX?",
+        "knalpot yang ga brisik untuk Yamaha NMAX?",
+        "apa aja varian knalpot untuk Yamaha NMAX?",
+        "varian knalpot untuk Yamaha NMAX?",
+        "knalpot untuk Yamaha NMAX apa aja?",
+        "mau knalpot yang ga brisik"
+      ],
+      "responses": [
+        "model: Yamaha NMAX , exhaust_brand : Akrapovic , material : Carbon Fiber , features : Increased power, sporty sound, lightweight"
+      ]
+    },
+    {
+      "tag": "informasi_knalpot_r15",
+      "patterns": [
+        "Rekomendasi knalpot untuk motor Yamaha R15?",
+        "knalpot yang cakep untuk Yamaha R15?",
+        "apa aja varian knalpot untuk Yamaha R15?",
+        "knalpot untuk Yamaha R15?",
+        "mau knalpot untuk Yamaha R15?",
+        "apa knalpot untuk Yamaha R15?"
+      ],
+      "responses": [
+        "model: Yamaha R15 , exhaust_brand : yoshimora , material : Stainless Steel , features : Durable, enhanced performance, aggressive sound"
+      ]
+    },
+    {
+      "tag": "informasi_knalpot_vixion",
+      "patterns": [
+        "Apa knalpot yang bagus untuk Yamaha Vixion?",
+        "mau knalpot terbaru untuk Yamaha Vixion",
+        "apa aja varian knalpot untuk Yamaha Vixion?",
+        "informasi varian knalpot untuk Yamaha Vixion?",
+        "varian knalpot untuk Yamaha Vixion?",
+        "model knalpot untuk Yamaha Vixion?"
+      ],
+      "responses": [
+        "model: Yamaha Vixion, exhaust_brand : R9 , material : Titanium , features : Lightweight, improved throttle response, deep sound"
+      ]
+    },
+    {
+      "tag": "informasi_knalpot_aerox",
+      "patterns": [
+        "Knalpot aftermarket apa yang sesuai untuk Yamaha Aerox?",
+        "knalpot terbaru untuk Yamaha Aerox",
+        "apa aja varian knalpot untuk Yamaha Aerox?",
+        "informasi varian knalpot untuk Yamaha Aerox?",
+        "knalpot untuk Yamaha Aerox?",
+        "knalpot model untuk Yamaha Aerox?"
+      ],
+      "responses": [
+        "model: Yamaha Aerox, exhaust_brand : Termignoni , material : Aluminum , features : High performance, distinctive sound, corrosion-resistant"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_tambahan_r25",
+      "patterns": [
+        "Apa knalpot terbaik untuk Yamaha R25?",
+        "mau knalpot kualitas bagus Yamaha R25",
+        "knalpot yang awet untuk Yamaha R25",
+        "Yamaha R25 knalpot kualitas bagus",
+        "knalpot kualitas bagus model Yamaha R25",
+        "warna knalpot Yamaha R25"
+      ],
+      "responses": [
+        "model : Yamaha R25 , exhaust_brand : SC Project , material : Carbon Fiber, features : Racing performance, lightweight, deep growl"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_tambahan_mt25",
+      "patterns": [
+        "Knalpot aftermarket yang bagus untuk Yamaha MT-25?",
+        "model knalpot Yamaha MT-25",
+        "knalpot yang awet untuk Yamaha MT-25",
+        "Yamaha MT-25 knalpot",
+        "Yamaha MT-25 aftermarket yang bagus knalpot",
+        "yang awet untuk Yamaha MT-25 model apa"
+      ],
+      "responses": [
+        "model : Yamaha MT-25 , exhaust_brand : Akrapovic , material : Stainless Steel, features : Enhanced power, sporty design, robust build"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_tambahan_xmax",
+      "patterns": [
+        "Rekomendasi knalpot untuk Yamaha XMAX?",
+        "model knalpot Yamaha XMAX",
+        "knalpot racing Yamaha XMAX",
+        "knalpot untuk Yamaha XMAX racing",
+        "mau knalpot untuk Yamaha XMAX",
+        "bahan apa dari apa knalpot Yamaha XMAX?"
+      ],
+      "responses": [
+        "model : Yamaha Yamaha XMAX , exhaust_brand : Arrow , material : Titanium, features : High endurance, sleek look, improved sound"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_tambahan_jupmx",
+      "patterns": [
+        "Apa knalpot racing yang sesuai untuk Yamaha Jupiter MX?",
+        "knalpot racing terbaik Yamaha Jupiter MX",
+        "knalpot racing ga brisik Yamaha Jupiter MX",
+        "terbaik Yamaha Jupiter MX knlapot",
+        "mau knalpot racing sesuai Yamaha Jupiter MX",
+        "bahan apa knalpot racing sesuai Yamaha Jupiter MX"
+      ],
+      "responses": [
+        "model : Yamaha Yamaha Jupiter MX, exhaust_brand : Leovince , material : Aluminum, features : Performance boost, affordable, stylish"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_lainnya_byson",
+      "patterns": [
+        "Rekomendasi knalpot untuk Yamaha Byson?",
+        "knalpot yang keren untuk Yamaha Byson",
+        "knalpot terbaik Yamaha Byson",
+        "knalpot untuk Yamaha Byson",
+        "bahan apa knalpot Yamaha Byson"
+      ],
+      "responses": [
+        "model : Yamaha Yamaha Jupiter Byson, exhaust_brand : ProSpeed , material : Stainless Steel, features : Sporty design, improved performance, durable"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_lainnya_fino",
+      "patterns": [
+        "Knalpot apa yang bagus untuk Yamaha Fino?",
+        "knalpot yang keren untuk Yamaha Fino",
+        "Knalpot yang ramah Yamaha Fino",
+        "bahan dari apa knalpot Yamaha Fino?",
+        "knalpot untuk Yamaha Fino",
+        "Rekomendasi knalpot untuk Yamaha Fino?"
+      ],
+      "responses": [
+        "model : Yamaha Yamaha Fino, exhaust_brand : KYT , material : Carbon Fiber, features : Lightweight, stylish, enhanced sound"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_lainnya_lexi",
+      "patterns": [
+        "Knalpot aftermarket terbaik untuk Yamaha Lexi?",
+        "knalpot apa yang cocok untuk Yamaha Lexi?",
+        "Knalpot yang ramah ga brisik Yamaha Lexi",
+        "mau knalpot untuk Yamaha Lexi",
+        "bahan dari apa knalpot Yamaha Lexi",
+        "warna apa knalpot Yamaha Lexi "
+      ],
+      "responses": [
+        "model : Yamaha Yamaha Lexi, exhaust_brand : AHM , material : Aluminum, features : Performance enhancement, robust build, sleek design"
+      ]
+    },
+    {
+      "tag": "jenis_knalpot_lainnya_scorpio",
+      "patterns": [
+        "Apa knalpot racing untuk Yamaha Scorpio?",
+        "knalpot apa yang cocok untuk Yamaha Scorpio?",
+        "Knalpot yang ramah ga brisik Yamaha Scorpio",
+        "bahan dari apa knalpot Yamaha Scorpio?",
+        "knalpot untuk Yamaha Scorpio",
+        "Rekomendasi knalpot untuk Yamaha Scorpio?"
+      ],
+      "responses": [
+        "model : Yamaha Yamaha Scorpio, exhaust_brand : Yoshimura , material : Titanium, features : High performance, aggressive look, durable"
+      ]
+    },
+    {
+      "tag": "Indikator Kunci NMAX",
+      "patterns": [
+        "kenapa indikator kunci NMAX menyala?",
+        "penyebab indikator kunci menyala?",
+        "indikator error",
+        "fungsi indikator menyala?",
+        "indikator kunci NMAX menyala kenapa?",
+        "indikator kunci NMAX menyala erorr"
+      ],
+      "responses": [
+        "penyebabnya bisa karena letaknya tak berada di dalam jangkuan sejauh 2 meter, sehingga pengendara sebaiknya segera mengecek keberadaan remote, karena takutnya jatuh."
+      ]
+    },
+    {
+      "tag": "Mesin bunyi",
+      "patterns": [
+        "mesin bunyi klotok-klotok",
+        "penyebab mesin bunyi",
+        "tips supaya mesin ga bunyi",
+        "penyebab mesin bunyi aneh",
+        "supaya mesin ga bunyi?",
+        "mesin bunyi mulu tips?"
+      ],
+      "responses": [
+        "Penyebab bunyi klotok-klotok di mesin akibat tensioner keteng yang kendur tensioner keteng sendiri fungsinya untuk mengatur ketegangan rantai keteng"
+      ]
+    },
+    {
+      "tag": "kode motor 42",
+      "patterns": [
+        "apa arti kode 42 di NMAX?",
+        "kenapa motor saya ada kode 42?",
+        "fungsi kode 42?",
+        "bisakah kode 42 hilang?",
+        "kode 42 solusi",
+        "kode 42 tanda?"
+      ],
+      "responses": ["kode 42, tandanya area speed sensor ada masalah"]
+    },
+    {
+      "tag": "aki bawaan",
+      "patterns": [
+        "Aki bawaan NMAX merk apa?",
+        "aki original NMAX",
+        "merk apa untk aki bawaan NMAX?",
+        "aki bawaan NMAX",
+        "aki asli NMAX",
+        "mau aki original NMAX"
+      ],
+      "responses": [
+        "Yuasa MF YTZ6V aki ori bawaan motor Yamaha NEW NMAX N MAX Vario ISS"
+      ]
+    },
+    {
+      "tag": "kemanan motor",
+      "patterns": [
+        "Apakah motor NMAX Anti Maling?",
+        "Nmax anti maling",
+        "Nmax motor anti maling?",
+        "anti maling motor NMAX?",
+        "apa benar NMAX anti maling?",
+        "NMAX ada key sistem?"
+      ],
+      "responses": [
+        "Yamaha All New NMAX 155 Connected/ABS sudah dilengkapi dengan fitur Smart Key System. Jadi motor aman dan anti maling"
+      ]
+    },
+    {
+      "tag": "sensor TCS",
+      "patterns": [
+        "apa itu sensor TCS NMAX?",
+        "gunanya sensor TCS?",
+        "Nmax motor anti maling?",
+        "bisa ga sensor TCS anti maling",
+        "buat apa sensor TCS?",
+        "fungsi sensor TCS?"
+      ],
+      "responses": [
+        "Fungsi TCS adalah mengurangi risiko ban belakang selip di permukaan jalan yang traksinya rendah atau licin pada saat akselerasi. Dengan begitu pengendara tetap bisa memberikan kontrol maksimal, tak mudah oleng saat membuka gas. Fitur TCS memanfaatkan sensor ABS pada cakram yang ikut berotasi saat motor berjalan"
+      ]
+    },
+    {
+      "tag": "menu tombol di NMAX",
+      "patterns": [
+        "apa fungsi tombol menu di NMAX?",
+        "Nmax ada tombol menu buat apa?",
+        "apa gunanya tombol menu di NMAX",
+        "menu tombol NMaX",
+        "fungsi tombol menu di NMAX?",
+        "tombol menu di NMAX buat apa?"
+      ],
+      "responses": [
+        "untuk mengakses dan memilih tampilan informasi dan setting pada speedometer di NMAX baru"
+      ]
+    },
+    {
+      "tag": "Aki",
+      "patterns": [
+        "Aki NMAX kering apa basah?",
+        "kenapa aki ku kering?",
+        "penyebab aki kering?",
+        "Aki motor kering",
+        "solusi aki kering?",
+        "aki kering sebab"
+      ],
+      "responses": [
+        "Untuk Yamaha NMax ini aki kering (free maintenance), dan kemungkinan besar diluncurkan akhir tahun atau awal tahun"
+      ]
+    },
+    {
+      "tag": "Remot_NMAX",
+      "patterns": [
+        "berapa harga ganti remot NMAX?",
+        "Remot NMAX berapa?",
+        "Remot NMAX asli harga",
+        "Biaya ganti remot NMAX?",
+        "ganti remot NMAX",
+        "asli harga remot NMAX"
+      ],
+      "responses": [
+        "biaya penggantian remote keyless atau SKS harganya Rp 518.000. Namun beda cerita ketika remote maupun nomor serialnya ikut hilang, maka harus dilakukan penggantian satu set remote key plus remote control unit"
+      ]
+    },
+    {
+      "tag": "Kode_Kerusakan",
+      "patterns": [
+        "Berapa kode kerusakan dari sensor TPS pada sepeda motor Yamaha?",
+        "Sensor TPS saya rusak motor yamaha",
+        "penyebab kode kerusakan dari senosr TPS",
+        "motor yamaha ada kode kerusakan dari sensor TPS",
+        "rusak motor yamaha sensor TPS",
+        "kode kerusakan dari senosr TPS"
+      ],
+      "responses": [
+        "kode 14 = kerusakan sistem udara, lubang tersumbat atau terlepas. kode 15 = TPS (Throtle Position Sensor) terlepas atau terjadi hubungan singkat (korslet)"
+      ]
+    },
+    {
+      "tag": "Ukuran_Aki_NMAX",
+      "patterns": [
+        "Aki NMAX ukuran berapa?",
+        "Aki NMAX cocok di ukuran berapa?",
+        "NMAX aki berapa ukurannya?",
+        "NMAX aki menggunakan merk apa?",
+        "Aki NMAX ukuran berapa?",
+        "Aki NMAX ukuran"
+      ],
+      "responses": [
+        "kode 14 = Aki original Nmax generasi lama menggunakan merek Yuasa YTZ7V dengan kapasitas ampere 7Ah dan kode part 2DP-H2100-30, sedangkan untuk aki Yamaha Nmax generasi terbaru, tahun 2020 dan seterusnya menggunakan merek Yuasa YTZ6V dengan kapasitas ampere 6Ah dan kode part BN1-H2100-00"
+      ]
+    },
+    {
+      "tag": "Pusat_Servis",
+      "patterns": [
+        "Jalan mana  pusat servis Yamaha di Jakarta?",
+        "Dimana pusat servisnya Yamaha?",
+        "Berikan saya alamat pusat servis Jakarta",
+        "Pusat servis Jakarta dimana?",
+        "jalan pusat servis Yamaha di Jakarta?",
+        "alamat pusat servisnya Yamaha"
+      ],
+      "responses": [
+        "Jl. DR KRT Radjiman Widyodiningrat RT/RW 009-06 Rawa Terate, Cakung Jakarta Timur 13920 Indonesia"
+      ]
+    },
+    {
+      "tag": "Klaim_Asuransi",
+      "patterns": [
+        "Motor saya hilang bisa klaim asuransi?",
+        "syarat apa saja untuk klaim asuransi motor hilang?",
+        "saya di begal bisa klaim asuransi?",
+        "berikan saya syarat apa aja untuk klaim asuransi motor hilang?",
+        "klaim asuransi motor hilang?",
+        "ada klaim asuransi motor hilang?"
+      ],
+      "responses": [
+        "Untuk klaim asuransi motor hilang, Anda perlu menyediakan laporan polisi, salinan KTP/SIM, STNK, BPKB, polis asuransi, kunci motor utama dan cadangan, mengisi formulir klaim, serta surat keterangan dari pihak leasing jika motor masih dalam masa kredit"
+      ]
+    },
+    {
+      "tag": "Kredit_motor",
+      "patterns": [
+        "saya mau kredit motor syaratnya apa?",
+        "kredit motor yamaha dengan bunga rendah?",
+        "gimana caranya mengajukan kredit motor?",
+        "apa yang di butuhkan untuk kredit motor?",
+        "mengajukan kredit motor"
+      ],
+      "responses": [
+        "Untuk mengajukan kredit motor, Anda biasanya memerlukan beberapa dokumen dan persyaratan. Ini termasuk KTP sebagai identitas diri, bukti pendapatan seperti slip gaji atau surat keterangan penghasilan, serta rekening bank aktif. Selain itu, penyedia kredit juga mungkin meminta jaminan seperti sertifikat tanah atau agunan lainnya. Uang muka juga biasanya dibutuhkan sebagai persyaratan awal. Pastikan untuk memeriksa persyaratan yang berlaku di lembaga keuangan atau dealer motor tempat Anda mengajukan kredit, karena persyaratan dapat bervariasi"
+      ]
+    }
+  ]
+}

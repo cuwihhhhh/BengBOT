@@ -198,14 +198,15 @@
     }
   });
 
-  document.addEventListener("contextmenu", function (event) {
-    event.preventDefault();
-    var popup = document.getElementById("popup");
-    popup.style.display = "block";
-    setTimeout(function () {
-      popup.style.display = "none";
-    }, 1500);
-  });
+  // Disable Right Click
+  // document.addEventListener("contextmenu", function (event) {
+  //   event.preventDefault();
+  //   var popup = document.getElementById("popup");
+  //   popup.style.display = "block";
+  //   setTimeout(function () {
+  //     popup.style.display = "none";
+  //   }, 1500);
+  // });
 
   /**
    * Auto-Active Navmenu Links
